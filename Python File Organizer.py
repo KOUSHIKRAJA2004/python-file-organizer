@@ -1,19 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 import os
 
 
-# In[2]:
 
 
 import shutil
 
 
-# In[3]:
 
 
 # Define the source and destination directories
@@ -21,7 +18,6 @@ source_dir = r"C:\Users\Jerry\Documents\python"
 destination_dir = r"C:\Users\Jerry\Documents\python"
 
 
-# In[4]:
 
 
 # Create a dictionary mapping file types to colors
@@ -34,7 +30,6 @@ file_types_colors = {
 }
 
 
-# In[5]:
 
 
 # Function to organize files based on color tags
@@ -48,7 +43,6 @@ def organize_files_by_color():
             shutil.move(os.path.join(source_dir, filename), os.path.join(color_dir, filename))
 
 
-# In[ ]:
 
 
 # Call the function to organize files
