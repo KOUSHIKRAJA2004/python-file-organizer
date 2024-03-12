@@ -23,5 +23,5 @@ This Python script efficiently organizes files into separate folders based on sp
 3. **Run the Script:** Execute the script to start organizing your images:
 
 ```bash
-python.py
+Python File Organizer.py
 ```
